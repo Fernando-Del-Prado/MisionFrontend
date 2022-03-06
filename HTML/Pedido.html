@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqui puedes hacer tu pedido</title>
+
+        <img src="./ASSETS/ING/COSMOCACKE.png" alt="Logo COSMOCAKE" width="150px">
+    
+</head>
+<body>
+    <h1>Aqui puedes levantar tu pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Introduce tu nombre completo</label><br>
+        <input type="text" id="Nombre" name="Nombre"   placeholder="Nombre"><br><br>
+
+        <label for="tel1">Introduce tu numero de teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+        <label for="correo1">Input de Correo</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+        <label for="Descripcion">Descripcion</label><br>
+        <input type="text" id="Descripcion" name="Descripcion"   placeholder="Descripcion"><br><br>
+
+        <p>Entrega a domicilio o en tienda</p>
+        <input type="radio" id="domicilio" name="domiciliootienda" value="domicilio">
+        <label for="domicilio">domicilio</label><br>
+        <input type="radio" id="tienda" name="domiciliootienda" value="tienda">
+        <label for="tienda">tienda</label><br>
+
+        <p>Sabor</p>
+        <input type="checkbox" id="La nada" name="La nada" value="La nada">
+        <label for="La nada">La nada</label>
+        <input type="number" name="cuantosLanada" id="cuantosLanada"><br>
+        <input type="checkbox" id="Saturno" name="Saturno" value="Saturno">
+        <label for="Saturno">Saturno</label>
+        <input type="number" name="cuantosSaturno" id="cuantosSaturno"><br>
+        <input type="checkbox" id="La Luna" name="La Luna" value="La Luna">
+        <label for="La Luna">La Luna</label>
+        <input type="number" name="cuantosLaLuna" id="cuantosLaLuna"><br>
+        <input type="checkbox" id="Venus" name="Venus" value="Venus">
+        <label for="Venus">Venus</label>
+        <input type="number" name="cuantosVenus" id="cuantosVenus"><br>
+
+        <p>Desea un segundo sabor</p>
+        <input type="checkbox" id="2dosabor" name="2dosabor" value="2dosabor">
+        <label for="2dosabor"></label>
+        <select name="2do sabor" id="2dosabor">
+            <option value="Lanada">La nada</option>
+            <option value="Saturno">Saturno</option>
+            <option value="LaLuna">La Luna</option>
+            <option value="Venus">Venus</option>
+        </select>
+
+        <p>Adornos</p>
+        <input type="checkbox" id="Anillos" name="Anillos" value="Anillos">
+        <label for="Anillos">Anillos</label>
+        <input type="checkbox" id="Saturno" name="Estrellas" value="Estrellas">
+        <label for="Estrellas">Estrellas</label>
+        <input type="checkbox" id="Asteroides" name="Asteroides" value="Asteroides">
+        <label for="Asteroides">Asteroides</label>
+        <input type="checkbox" id="astronauta" name="astronauta" value="astronauta">
+        <label for="astronauta">Astronauta</label>
+
+        <br><br><br>
+        
+        <input type="submit">
+
+
+    </form>
+
+</body>
+</html>    
